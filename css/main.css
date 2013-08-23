@@ -1,0 +1,170 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+  padding-top:40px;
+  background-color: #000;
+}
+
+#slides {
+  display: none;
+  margin-bottom:25px;
+}
+
+.slidesjs-navigation {
+  margin-top:3px;
+}
+
+.slidesjs-pagination {
+  width: 100px;
+  margin: 10px auto 0 auto;
+  list-style: none;
+}
+
+.slidesjs-pagination li {
+  display: inline-block;
+  margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(../img/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
+
+/*a:link,
+a:visited {
+  color: #333
+}
+
+a:hover,
+a:active {
+  color: #9e2020
+}
+*/
+.navbar {
+  overflow: hidden
+}
+
+#slides {
+  display: none
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.logo {
+  margin: 0 auto;
+  display: block;
+}
+
+.share-container {
+  text-align: center;
+}
+
+.share-container .share-button {
+  padding: 0 20px 0 20px;
+}
+
+.facebook-button {
+  -moz-box-shadow:inset 0px 1px 0px 0px #667fb5;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #667fb5;
+  box-shadow:inset 0px 1px 0px 0px #667fb5;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3e5ea2), color-stop(1, #37538d) );
+  background:-moz-linear-gradient( center top, #3e5ea2 5%, #37538d 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3e5ea2', endColorstr='#37538d');
+  background-color:#3e5ea2;
+  -webkit-border-top-left-radius:6px;
+  -moz-border-radius-topleft:6px;
+  border-top-left-radius:6px;
+  -webkit-border-top-right-radius:6px;
+  -moz-border-radius-topright:6px;
+  border-top-right-radius:6px;
+  -webkit-border-bottom-right-radius:6px;
+  -moz-border-radius-bottomright:6px;
+  border-bottom-right-radius:6px;
+  -webkit-border-bottom-left-radius:6px;
+  -moz-border-radius-bottomleft:6px;
+  border-bottom-left-radius:6px;
+  text-indent:0;
+  border:1px solid #283d68;
+  display:inline-block;
+  color:#ffffff;
+  font-family:arial;
+  font-size:15px;
+  font-weight:bold;
+  font-style:normal;
+  height:50px;
+  line-height:50px;
+  text-decoration:none;
+  text-align:center;
+  text-shadow:0px 0px 18px #ababab;
+}
+.facebook-button:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #37538d), color-stop(1, #3e5ea2) );
+  background:-moz-linear-gradient( center top, #37538d 5%, #3e5ea2 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#37538d', endColorstr='#3e5ea2');
+  background-color:#37538d;
+}.facebook-button:active {
+  position:relative;
+  top:1px;
+}
+
+.twitter-button {
+  -moz-box-shadow:inset 0px 1px 0px 0px #34d1fc;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #34d1fc;
+  box-shadow:inset 0px 1px 0px 0px #34d1fc;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #00c5fb), color-stop(1, #00aede) );
+  background:-moz-linear-gradient( center top, #00c5fb 5%, #00aede 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00c5fb', endColorstr='#00aede');
+  background-color:#00c5fb;
+  -webkit-border-top-left-radius:6px;
+  -moz-border-radius-topleft:6px;
+  border-top-left-radius:6px;
+  -webkit-border-top-right-radius:6px;
+  -moz-border-radius-topright:6px;
+  border-top-right-radius:6px;
+  -webkit-border-bottom-right-radius:6px;
+  -moz-border-radius-bottomright:6px;
+  border-bottom-right-radius:6px;
+  -webkit-border-bottom-left-radius:6px;
+  -moz-border-radius-bottomleft:6px;
+  border-bottom-left-radius:6px;
+  text-indent:0;
+  border:1px solid #0086ab;
+  display:inline-block;
+  color:#ffffff;
+  font-family:arial;
+  font-size:15px;
+  font-weight:bold;
+  font-style:normal;
+  height:50px;
+  line-height:50px;
+  text-decoration:none;
+  text-align:center;
+  text-shadow:0px 0px 18px #ababab;
+}
+.twitter-button:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #00aede), color-stop(1, #00c5fb) );
+  background:-moz-linear-gradient( center top, #00aede 5%, #00c5fb 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00aede', endColorstr='#00c5fb');
+  background-color:#00aede;
+}.twitter-button:active {
+  position:relative;
+  top:1px;
+}
